@@ -1,34 +1,29 @@
 #include<iostream>
+
 using namespace std;
 
-int main(){
-	
-    
-int n ,x;
-int max ;
+int main() {
 
-     cout << "Enter your numbers   : " << endl;
-     cin >> x;
-     max=x;
-if (max!=0)
-{
-	
-while(1)
-{
+  int n, x;
+  int max;
 
-     cin >> n;
-     
-if(n == 0) break;
+  cout << "Enter your numbers   : " << endl;
+  cin >> x;
+  max = x;
+  if (max != 0) {
 
-else if (max<n)
-     {
-   	 max=n;
-     }
+    while (1) {
+
+      cin >> n;
+
+      if (n == 0) break;
+
+      else if (max < n) {
+        max = n;
+      }
+    }
+  }
+  cout << max << endl;
+  return 0;
+
 }
-}
-     cout << max << endl;
-return 0;
-   
-          }
-
-

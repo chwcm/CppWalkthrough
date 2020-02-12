@@ -1,17 +1,15 @@
 #include <iostream>
+
 using namespace std;
 
+int main() {
+  int x, y, sum;
 
-int main()
-{
-    int x, y, sum;
-    
-    cout << "Enter the two numbers : ";
-    cin >> x >> y;
+  cin >> x;
+  cin >> y;
+  sum = x + y;
 
-       sum = x + y;
- 
-    cout << sum;  
-   
-    return 0;
+  cout << sum << std::endl;
+
+  return 0;
 }
