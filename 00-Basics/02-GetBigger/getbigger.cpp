@@ -5,12 +5,12 @@ using namespace std;
 int main() {
   int x, y, max;
 
-  cout << "Enter the two numbers : ";
+ 
   cin >> x >> y;
   if (x > y) {
-    cout << x;
+    cout << x<<endl;
   } else {
-    cout << y;
+    cout << y<<endl;
   }
   return 0;
 }

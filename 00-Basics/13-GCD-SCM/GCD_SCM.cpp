@@ -20,5 +20,5 @@ int main() {
   gcd = a;
   cout << gcd << endl;
   scm = n / gcd;
-  cout << scm;
+  cout << scm<<endl;
 }

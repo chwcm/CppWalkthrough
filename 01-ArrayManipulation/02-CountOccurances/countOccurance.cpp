@@ -14,27 +14,17 @@ int main() {
     0
   };
 
-  while (1) {
+  do {
 
     cin >> n;
 
-    if (n == 0) break;
-
-    else if (n > 5) {
+    if (n > 5) {
       tab[5]++;
-    } else if (n == 1) {
-      tab[0]++;
-    } else if (n == 2) {
-      tab[1]++;
-    } else if (n == 3) {
-      tab[2]++;
-    } else if (n == 4) {
-      tab[3]++;
-    } else if (n == 5) {
-      tab[4]++;
+    } else {
+        tab[n-1]++;
     }
 
-  }
+  } while (n != 0);
   for (int i = 0; i < 5; i++) {
     cout << i + 1 << ": " << tab[i] << "\n";
   }

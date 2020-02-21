@@ -5,8 +5,7 @@
 using namespace std;
 
 int main() {
-  int j = 0;
-  int tab[j];
+
 
   int n;
   cout << "Enter your numbers to check if it is positive : " << endl;
@@ -18,8 +17,8 @@ int main() {
 
   for (int i = n; i > 0; i--) {
     if (n % i == 0) {
-      tab[i] = i;
-      cout << tab[i] << endl;
+      
+      cout << i << endl;
 
     }
   }

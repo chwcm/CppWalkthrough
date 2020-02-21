@@ -9,9 +9,9 @@ int main() {
   cin >> x >> y;
 
   if (x == y) {
-    cout << "equal";
+    cout << "equal"<<endl;
   } else {
-    cout << "not equal";
+    cout << "not equal"<<endl;
   }
 
   return 0;

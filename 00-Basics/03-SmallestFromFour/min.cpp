@@ -5,8 +5,7 @@ using namespace std;
 int min_of_four(int a, int b, int c, int d) {
   int min = a;
 
-  if (min > b) {
-    min = b;
+  if(min>b) min=b;
   }
   if (min > c) {
     min = c;

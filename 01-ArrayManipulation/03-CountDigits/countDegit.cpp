@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int tab[10] = {0,0,0,0,0,0,0,0,0,0};
+int digitcount[10] = {0,0,0,0,0,0,0,0,0,0};
 int n;
 
 int NbDigits(int n, int d) {
@@ -19,17 +19,16 @@ int NbDigits(int n, int d) {
 }
 
 int main() {
-  while (1) {
+  do {
     cin >> n;
 
     for (int i = 0; i < 10; i++) {
-      tab[i] = tab[i] + NbDigits(n, i);
+      digitcount[i] +=  NbDigits(n, i);
     }
-    if (n == 0) break;
-  }
+  } while (n != 0);
 
   for (int i = 0; i < 10; i++) {
-    cout << i << ": " << tab[i] << "\n";
+    cout << i << ": " << digitcount[i] << "\n";
   }
 
   return 0;

@@ -5,28 +5,24 @@
 using namespace std;
 
 int main() {
-  int size;
-  int a = 0;
-  int tab[size];
 
-  int n;
-  cout << "Enter your numbers to check if it is positive  : " << endl;
+  bool isPrime = true;
+  int n, i;
 
   while (1) {
     cin >> n;
     if ((n > 0) && (n % 2 != 0)) break;
   }
 
-  for (int i = n; i > 0; i--) {
+  for (i = 2; i <= n / 2; ++i) {
     if (n % i == 0) {
-      tab[i] = i;
-      a = a + 1;
-
+      isPrime = false;
+      break;
     }
   }
-  if (a = 2) {
-    cout << "prime";
-  } else {
-    cout << "not prime";
-  }
+  if (isPrime)
+    cout << " prime ";
+  else
+    cout << " not prime ";
+  return 0;
 }

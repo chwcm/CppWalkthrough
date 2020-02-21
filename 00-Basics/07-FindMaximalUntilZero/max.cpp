@@ -4,16 +4,16 @@ using namespace std;
 
 int main() {
 
-  int n, x;
+
   int max;
 
   cout << "Enter your numbers   : " << endl;
-  cin >> x;
-  max = x;
+  cin >> max;
+
   if (max != 0) {
 
     while (1) {
-
+  int n;
       cin >> n;
 
       if (n == 0) break;
