@@ -1,29 +1,22 @@
 #include<iostream>
+
 using namespace std;
 
-int main(){
-	
-    
-int n ;
-int sum = 0;
+int main() {
 
-     cout << "Enter your numbers   : " << endl;
+  int n;
+  int sum = 0;
 
-while(1)
-{
+  do {
 
-     cin >> n;
+    cin >> n;
+    if (n > 0) {
+      sum++;
+    }
 
-if(n == 0) break;
+  } while (n != 0);
 
-else if (n>0)
-     {
-   	 sum++;
-     }
+  cout << sum << endl;
+  return 0;
+
 }
-     cout << sum << endl;
-return 0;
-   
-          }
-
-

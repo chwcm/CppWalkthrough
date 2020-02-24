@@ -1,26 +1,23 @@
 #include<iostream>
+
 using namespace std;
 
-int main(){
-	
-    
-int n;
+int main() {
 
-     cout << "Enter your numbers to check if it is zero  : " << endl;
+  int n;
 
-while(1)
-{
+  cout << "Enter your numbers to check if it is zero  : " << endl;
 
-     cin >> n;
+  while (1) {
 
-if(n == 0) break;
+    cin >> n;
 
-else cout << n << endl;
+    if (n == 0) break;
+
+    else cout << n << endl;
+
+  }
+
+  return 0;
 
 }
-
-return 0;
-
-          }
-
-

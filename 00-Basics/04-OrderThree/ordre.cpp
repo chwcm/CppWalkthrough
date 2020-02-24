@@ -1,32 +1,28 @@
 #include <iostream>
+
+#include <algorithm>
+
 using namespace std;
 
+int main() {
+  int a, b, c, temp;
 
+  cout << "Enter the three numbers : " << endl;
+  cin >> a >> b >> c;
 
-int main()
-{
- int a, b, c, temp;
-    
-    cout << "Enter the three numbers : ";
-    cin >> a >> b>> c;
- 
-while(a>c||a>b||b>c)
-{
-    if(a>b)
-    {
-        temp=a;
-        a=b;
-        b=temp;
+  while (a > c || a > b || b > c) {
+
+    if (a > b) {
+      swap(a, b);
     }
-    if(b>c)
-    {
-        temp=b;
-        b=c;
-        c=temp;
+    if (b > c) {
+      swap(b, c);
     }
-}
- cout<<a<<endl;
- cout<<b<<endl;
- cout<<c;
-    return 0;
+
+  }
+
+  cout << a << endl;
+  cout << b << endl;
+  cout << c;
+  return 0;
 }
