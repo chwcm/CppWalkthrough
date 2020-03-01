@@ -22,7 +22,7 @@ int main() {
   int a[N], x, p, tem;
 
   int i = 0;
-  cout << "enter the nb  " << endl;
+
   while (i < 5) {
     cin >> x;
     if (i == 0) {

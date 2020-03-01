@@ -7,7 +7,6 @@ int main() {
   int n, x;
   int max, min;
 
-  cout << "Enter your numbers   : " << endl;
   cin >> x;
   max = x;
   min = x;
@@ -27,7 +26,7 @@ int main() {
     }
     cout << min << " , " << max << endl;
   } else {
-    cout << min;
+    cout << min << endl;
   }
 
   return 0;

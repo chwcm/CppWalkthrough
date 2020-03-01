@@ -7,7 +7,6 @@ int main() {
   int n, x, y;
   int min1, min2, temp;
 
-  cout << "Enter your numbers   : " << endl;
   cin >> x;
   cin >> y;
 

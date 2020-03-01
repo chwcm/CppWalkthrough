@@ -26,12 +26,12 @@ int main() {
   int arr2[n];
   int i, j;
 
-  cout << "enter the elements of  arr1 : " << endl;
+ 
   for (i = 0; i < n; i++) {
     cin >> arr2[i];
   }
 
-  cout << " enter the elements of  arr2 : " << endl;
+  
   for (j = 0; j < m; j++) {
     cin >> arr1[j];
   }

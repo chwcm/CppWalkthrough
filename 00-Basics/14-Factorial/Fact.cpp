@@ -11,5 +11,5 @@ int main() {
   for (int i = 1; i <= n; i++) {
     Fact *= i;
   }
-  cout << Fact;
+  cout << Fact<<endl;
 }

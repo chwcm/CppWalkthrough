@@ -3,17 +3,14 @@
 using namespace std;
 
 int main() {
-
-
   int max;
 
-  cout << "Enter your numbers   : " << endl;
   cin >> max;
 
   if (max != 0) {
 
     while (1) {
-  int n;
+      int n;
       cin >> n;
 
       if (n == 0) break;

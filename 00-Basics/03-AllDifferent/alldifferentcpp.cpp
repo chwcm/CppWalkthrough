@@ -5,12 +5,11 @@ using namespace std;
 int main() {
   int x, y, z;
 
-  cout << "Enter the three numbers : ";
   cin >> x >> y >> z;
   if (x == y || x == z || y == z) {
-    cout << "not all different ";
+    cout << "not all different "<<endl;
   } else {
-    cout << "all different";
+    cout << "all different"<<endl;
   }
   return 0;
 }

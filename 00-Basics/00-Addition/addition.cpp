@@ -9,7 +9,7 @@ int main() {
   cin >> y;
   sum = x + y;
 
-  cout << sum << std::endl;
+  cout << sum <<endl;
 
   return 0;
 }

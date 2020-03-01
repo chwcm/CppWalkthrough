@@ -3,14 +3,13 @@
 using namespace std;
 
 int main() {
-  int x, y, max;
+  int x, y;
 
- 
   cin >> x >> y;
   if (x > y) {
-    cout << x<<endl;
+    cout << x << endl;
   } else {
-    cout << y<<endl;
+    cout << y << endl;
   }
   return 0;
 }

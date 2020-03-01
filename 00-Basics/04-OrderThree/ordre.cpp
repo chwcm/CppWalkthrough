@@ -5,9 +5,8 @@
 using namespace std;
 
 int main() {
-  int a, b, c, temp;
+  int a, b, c;
 
-  cout << "Enter the three numbers : " << endl;
   cin >> a >> b >> c;
 
   while (a > c || a > b || b > c) {
@@ -18,11 +17,9 @@ int main() {
     if (b > c) {
       swap(b, c);
     }
-
   }
-
   cout << a << endl;
   cout << b << endl;
-  cout << c;
+  cout << c << endl;
   return 0;
 }

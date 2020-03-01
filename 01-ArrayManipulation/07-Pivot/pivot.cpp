@@ -16,7 +16,7 @@ int main() {
 
     cin >> org[b];
   }
-  cout << " entre pivot : ";
+
   cin >> pivot;
 
   do {

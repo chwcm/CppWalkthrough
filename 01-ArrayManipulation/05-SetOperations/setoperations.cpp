@@ -97,14 +97,13 @@ int main() {
   int a[m];
   int b[n];
   int i, j;
-  //	cout << "enter the elements of  a : "<<endl;
+
   for (i = 0; i < m; i++) {
 
     cin >> a[i];
 
   }
 
-  //	cout << " enter the elements of  b : "<<endl;
   for (j = 0; j < n; j++) {
 
     cin >> b[j];
